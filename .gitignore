@@ -1,0 +1,6 @@
+/Dapp/*.sdf
+/Dapp/ipch
+/Dapp/Debug
+/Dapp/Dapp/Debug
+/Dapp/*.dgml
+/Dapp/*.suo

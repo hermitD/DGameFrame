@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AppFrame">
+      <UniqueIdentifier>{be68b119-56af-4fdd-ab0f-b480ead6b14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrame">
+      <UniqueIdentifier>{fb121467-8243-4f16-a428-a8cacf22fefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheVirusGame">
+      <UniqueIdentifier>{71c6df8d-d04f-4790-9533-58da8dba7c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EliminateGame">
+      <UniqueIdentifier>{cd285355-0d63-4772-8a79-d900efbe39ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dapp.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGlobal.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DMainFrame.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DMyApp.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DWinApp.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DWnd.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameDefine.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameFrame.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameMedGraphic.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameMedia.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameMedSound.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameTheGame.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DGameTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DVirusGame.h">
+      <Filter>TheVirusGame</Filter>
+    </ClInclude>
+    <ClInclude Include="EliminateGame.h">
+      <Filter>EliminateGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseArea.h">
+      <Filter>TheVirusGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>EliminateGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dapp.cpp">
+      <Filter>AppFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGlobal.cpp">
+      <Filter>AppFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DMainFrame.cpp">
+      <Filter>AppFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DMyApp.cpp">
+      <Filter>AppFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DWinApp.cpp">
+      <Filter>AppFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DWnd.cpp">
+      <Filter>AppFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGameFrame.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGameMedGraphic.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGameMedia.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGameMedSound.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGameTheGame.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DGameTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DVirusGame.cpp">
+      <Filter>TheVirusGame</Filter>
+    </ClCompile>
+    <ClCompile Include="EliminateGame.cpp">
+      <Filter>EliminateGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseArea.cpp">
+      <Filter>TheVirusGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>EliminateGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dapp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dapp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Materials\bk.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Materials\bk.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
